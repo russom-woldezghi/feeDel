@@ -28,19 +28,19 @@ Ge'ez font explorer
 <!-- ROADMAP -->
 ## Roadmap
 
-- [] Readme.md drafted
-- [] React Native app project initiaized, dev tools
-- [] User story/path
-- [] Data source/structure for app
-- [] UI/UX prototype
-- [] Testing strategy
-- [] Component architecture
-- [] Font Context provider setup
-- [] Routing/navigation
-- [] Gridview
-- [] User gesture 
-- [] UI Styling, CSS
-- [] Transition, animation
+- [ ] Readme.md drafted
+- [ ] React Native app project initiaized, dev tools
+- [ ] User story/path
+- [ ] Data source/structure for app
+- [ ] UI/UX prototype
+- [ ] Testing strategy
+- [ ] Component architecture
+- [ ] Font Context provider setup
+- [ ] Routing/navigation
+- [ ] Gridview
+- [ ] User gesture 
+- [ ] UI Styling, CSS
+- [ ] Transition, animation
 - 
 
 
