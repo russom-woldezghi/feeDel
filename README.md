@@ -6,8 +6,13 @@ Ge'ez font explorer
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-### Built With
+Provide a quick reference to review and explore Ge'ez/ግዕዝ script
+ - https://en.wikipedia.org/wiki/Ge%CA%BDez_script
 
+### Built With
+ - Gitpod for development environment
+ - React Native for application development
+ - Expo CLI for deployments/testing application
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -16,19 +21,18 @@ Ge'ez font explorer
 <!-- GETTING STARTED -->
 ## Getting Started
 
-### Prerequisites
+<p>Click button below to start a Gitpod workspace and push a new branch.</p>
 
-### Installation
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/russom-woldezghi/feeDel.git)
+
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Readme.md drafted
+- [x] Readme.md drafted
 - [ ] React Native app project initiaized, dev tools
 - [ ] User story/path
 - [ ] Data source/structure for app
@@ -41,7 +45,6 @@ Ge'ez font explorer
 - [ ] User gesture 
 - [ ] UI Styling, CSS
 - [ ] Transition, animation
-- 
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
