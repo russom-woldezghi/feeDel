@@ -21,18 +21,18 @@ Provide a quick reference to review and explore Ge'ez/ግዕዝ script
 <!-- GETTING STARTED -->
 ## Getting Started
 
+<p>Click button below to start a Gitpod workspace and push a new branch.</p>
+
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/russom-woldezghi/feeDel.git)
 
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Readme.md drafted
+- [x] Readme.md drafted
 - [ ] React Native app project initiaized, dev tools
 - [ ] User story/path
 - [ ] Data source/structure for app
@@ -45,7 +45,6 @@ Provide a quick reference to review and explore Ge'ez/ግዕዝ script
 - [ ] User gesture 
 - [ ] UI Styling, CSS
 - [ ] Transition, animation
-- 
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
