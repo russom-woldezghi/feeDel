@@ -4,7 +4,7 @@ ports:
   - port: 19000-19002
 tasks:
   - name: Init project
-    command: expo init
+    command: npm install && expo init
 github:
   prebuilds:
     # enable for the default branch (defaults to true)
