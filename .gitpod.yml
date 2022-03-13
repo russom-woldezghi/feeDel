@@ -3,9 +3,8 @@ image:
 ports:
   - port: 19000-19002
 tasks:
-  - name: Init project
-  - init: yarn
-    command: yarn start && expo init
+  - init: yarn install
+    command: yarn start
 github:
   prebuilds:
     # enable for the default branch (defaults to true)

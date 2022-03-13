@@ -1,5 +1,7 @@
-FROM gitpod/workspace-full-vnc
+FROM node:16
 
-USER gitpod
+RUN yarn global add expo-cli
 
-RUN npm install expo-cli --global
+COPY . /workspace
+
+WORKDIR "/workspace/feeDel"
