@@ -33,7 +33,7 @@ Provide a quick reference to review and explore Ge'ez/ግዕዝ script
 ## Roadmap
 
 - [x] Readme.md drafted
-- [ ] React Native on gitpod/expo setup
+- [x] React Native on gitpod/expo setup
 - [ ] Data source/structure for app
 - [ ] UI/UX of explorer and character page
 - [ ] Component architecture
