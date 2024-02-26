@@ -28,24 +28,18 @@ const List: React.FC<ListProps> = ({ navigation, DATA, styles }) => {
             />
         );
     };
-
+    const numberOfColumns = 7; // @todo determine column based on data/row.
     return (
         <View style={styles.flexOne}>
             <FlatList
                 data={DATA}
-                renderItem={(parentItem: ListItemWithParent<Item>['parentItem']) => (
-                    <FlatList
-                        data={DATA}
-                        renderItem={(
-                            item: Optional<ListItemWithParent<Item>, 'parentItem'>
-                        ) => {
-                            item.parentItem = parentItem;
-                            return renderItem(item as ListItemWithParent<Item>);
-                        }}
-                        keyExtractor={(item) => item.id}
-                        horizontal={true}
-                    />
-                )}
+                renderItem={(
+                    item: Optional<ListItemWithParent<Item>, 'parentItem'>
+                ) => {
+                    return renderItem(item as ListItemWithParent<Item>);
+                }}
+                keyExtractor={(item) => item.id}
+                numColumns={numberOfColumns}
             />
         </View>
     );
