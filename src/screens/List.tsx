@@ -28,7 +28,7 @@ const List: React.FC<ListProps> = ({ navigation, DATA, styles }) => {
             />
         );
     };
-    const numberOfColumns = 7; // @todo determine column based on data/row.
+    // const numberOfColumns = 7; // @todo determine column based on data/row.
     return (
         <View style={styles.flexOne}>
             <FlatList
@@ -39,7 +39,7 @@ const List: React.FC<ListProps> = ({ navigation, DATA, styles }) => {
                     return renderItem(item as ListItemWithParent<Item>);
                 }}
                 keyExtractor={(item) => item.id}
-                numColumns={numberOfColumns}
+                numColumns={7}
             />
         </View>
     );
