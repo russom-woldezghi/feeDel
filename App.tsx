@@ -2,22 +2,12 @@ import React from 'react';
 import Navigation from './src/navigation';
 import { StyleSheet, ViewStyle } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { DATA } from './src/data/data';
 
 interface Item {
   id: string;
   title: string;
 }
-
-const DATA: Item[] = 
-[
-  { id: 'a0', title: 'ሀ' },
-  { id: 'a1', title: 'ሁ' },
-  { id: 'a2', title: 'ሂ' },
-  { id: 'a3', title: 'ሃ' },
-  { id: 'a4', title: 'ሄ' },
-  { id: 'a5', title: 'ህ' },
-  { id: 'a6', title: 'ሆ' },
-];
 
 interface Styles {
   flexOne: ViewStyle;
