@@ -8,11 +8,11 @@ interface ItemProps {
     styles: {
         flexOne: ViewStyle;
         imageScreenTwo: ImageStyle;
+        letter: ViewStyle;
     };
-    DATA: Feedel[];
 }
 
-const Item: React.FC<ItemProps> = ({ route, navigation, styles, DATA }) => {
+const Item: React.FC<ItemProps> = ({ route, navigation, styles }) => {
     const { letter } = route.params;
     
     return (
