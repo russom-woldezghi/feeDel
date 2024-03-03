@@ -1,3 +1,8 @@
+interface Item {
+    id: string;
+    title: string;
+}
+
 export const DATA: Item[] = [
     { id: 'a0', title: 'ሀ' },
     { id: 'a1', title: 'ሁ' },

@@ -7,6 +7,7 @@ interface ListProps {
     DATA: Feedel[];
     styles: {
         flexOne: ViewStyle;
+        item: ViewStyle;
     };
 }
 
