@@ -11,7 +11,8 @@ interface Styles {
 
 export const styles = StyleSheet.create<Styles>({
     flexOne: {
-        flex: 1
+        flex: 1,
+        borderColor: 'red',
     },
     item: {
         alignItems: 'center',
