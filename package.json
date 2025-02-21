@@ -37,6 +37,7 @@
     "react-native-web": "~0.19.13"
   },
   "devDependencies": {
+    "@react-native-community/cli": "latest",
     "@babel/core": "^7.23.9",
     "@expo/ngrok": "^4.1.0",
     "@types/react": "~18.3.12",
