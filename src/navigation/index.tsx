@@ -15,14 +15,14 @@ interface NavigationProps {
     };
 }
 
-const Navigation: React.FC<NavigationProps> = ({ DATA, styles }) => {
+const Navigation = ({ DATA, styles }: NavigationProps) => {
     return (
         <NavigationContainer>
             <Stack.Navigator>
                 <Stack.Screen name="List" options={{ headerShown: false }}>
                     {(props) => <List {...props} DATA={DATA} styles={styles} />}
                 </Stack.Screen>
-                <Stack.Screen name="Item" options={{ headerShown: true }}>
+                <Stack.Screen name="Item" options={{ headerShown: false }}>
                     {(props) => <Item {...props} DATA={DATA} styles={styles} />}
                 </Stack.Screen>
             </Stack.Navigator>

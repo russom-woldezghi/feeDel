@@ -7,15 +7,17 @@ interface FeedelProps {
     }
     onPress: () => void;
     styles: {
+        title: TextStyle;
         item: ViewStyle;
         itemImage: ImageStyle;
         letter: TextStyle;
     };
 }
 
-const Feedel: React.FC<FeedelProps> = ({ item, onPress, styles }) => (
+const Feedel = ({ item, onPress, styles }: FeedelProps) => (
     <TouchableOpacity onPress={onPress}>
         <Text style={styles.title}>{item.title}</Text>
+        <Text>Feedel</Text>
     </TouchableOpacity>
 );
 

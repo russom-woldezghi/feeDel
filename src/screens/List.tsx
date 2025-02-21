@@ -15,7 +15,7 @@ interface ListItemWithParent {
     onPress: TouchableWithoutFeedbackProps['onPress'];
 }
 
-const List: React.FC<ListProps> = ({ navigation, DATA, styles }) => {
+const List = ({ navigation, DATA, styles }: ListProps) => {
     const renderItem = ({ item }: ListRenderItemInfo<typeof Feedel>) => {
         return (
             <Feedel
